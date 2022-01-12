@@ -1,37 +1,89 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/as910910/index./edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/as910910/index./settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!doctype html>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>設計團隊</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="js/mobile.js"></script>
+</head>
+<body>
+	<div id="header">
+		<a href="index.html" class="logo">
+						<img src="images/標題.jpg" alt="">
+		
+		</a>
+		<ul id="navigation">
+			<li>
+				<a href="index.html">首頁</a>
+			</li>
+			<li>
+				<a href="about.html">困境</a>
+			</li>
+			<li>
+				<a href="gallery.html">來源</a>
+			</li>
+			<li class="selected">
+				<a href="blog.html">解決方案</a>
+			</li>
+			
+		</ul>
+	</div>
+	<div id="body">
+		<h1><span>設計團隊</span></h1>
+		<div>
+			<ul>
+		
+			<li>
+					<a href="blog-single-post.html" class="figure">
+						<img src="images/人.jpg"width="378" height="480">
+					</a>
+					<div>
+						<h3>製作人</h3>
+						<p>
+							李明勛就讀聯合大學文創一甲
+						</p>
+						<p>
+							<img src="images/我.jpg"width="510" height="280">
+						</p>					
+					</div>
+				</li>
+			</ul>
+			<div class="article">
+			
+				<h2>WHY I GREW A MUSTACHE</h2>
+				<p>
+					沒有了海洋，人類就無法生存，所以，我們要團結一致，攜手保護海洋，我們不能沒有他。
+				</p>
+				<p>
+				地球上大部分都是海洋，地球是我們的家園，為了我們賴以生存的家園，我們要保護海洋。
+				</p>
+				<p>
+					海洋是廣大資源的依託，是生命的搖籃，讓我們全力以赴保護她吧！
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>&copy;李明勛</p>
+			<ul>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+				</li>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
+				</li>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
+				</li>
+				<li>
+					<a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
